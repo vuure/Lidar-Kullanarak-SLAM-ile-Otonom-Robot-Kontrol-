@@ -11,6 +11,7 @@ Sensörler = 2B Lidar, Encoderlar
 
 ## Çevre Analizi:
 Bir Seans*	Partially	Stochastic	Sequental		Continuous
+
 Birden Fazla Seans	Partially	Stochastic	Episodic		Continuous
 * Seans, haritalandırmanın tamamlanmasından robotun kapanması arasında geçen süreyi belli eder
   

@@ -154,8 +154,13 @@ işlemimiz bu kadardı. Artık sağlıklı bir şekilde haritalandırma yapıp b
 Ancak unutmamalıyız ki, kaydettiğimiz haritayı yeniden kullanamıyoruz. Yani her seferinde yeniden haritalandırma yapmamız gerekiyor. Eğer haritayı kaydedip ona göre işlem yapmak istiyorsanız “gmapping” aplikasyonu daha yararlı olacaktır.
 
 # Verilere Göre Python Kodunu Yazma
+
 Python kodunu ilerleyen günlerde ekleyeceğim
+
 Kaynaklar:
+
 [1] https://wiki.ros.org/noetic/Installation/Ubuntu
+
 [2] https://www.youtube.com/watch?v=h16BGFK_V9Q&t=39s
+
 [3] https://youtu.be/Qrtz0a7HaQ4?t=370

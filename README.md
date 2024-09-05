@@ -151,12 +151,18 @@ rostopic echo /scan
 roslaunch hector_slam_launch tutorial.launch
  ```
 işlemimiz bu kadardı. Artık sağlıklı bir şekilde haritalandırma yapıp bu haritalandırmayı hafızada tutabiliyoruz.
-Ancak unutmamalıyız ki, kaydettiğimiz haritayı yeniden kullanamıyoruz. Yani her seferinde yeniden haritalandırma yapmamız gerekiyor. Eğer haritayı kaydedip ona göre işlem yapmak istiyorsanız “gmapping” aplikasyonu daha yararlı olacaktır.
+Ancak unutmamalıyız ki, Hector Slam pek sağlıklı bir SLAM aracı değil. Temel olarak bir üniversite tarafından bir yarışma için geliştirildiğinden kapsamlı değil. Eğer dah kapsamlı bir aplikasyon istiyorsanız “gmapping” gibi aplikasyonlar kullanmanız daha yararlı olacaktır.
 
-# Verilere Göre Python Kodunu Yazma
+# Odometri
+Odometri, hayatımızın çeşitli alanlarında biz fark etmesek bile karşımıza çıkan bir terimdir. Anlam olarak odometri, zaman içindeki konum değişikliğini tahmin etmek için hareket sensörlerinden gelen verilerin kullanılmasıdır (Wikipedia)
 
-Python kodunu ilerleyen günlerde ekleyeceğim
+Bu kavram daha çok otonom veya robotik sistemlerde karşımıza çıkar. Örneğin Tesla, arabalarında hareketi ölçmek için odometriyi kullanır.
 
+![odometry](https://www.researchgate.net/publication/365825855/figure/fig4/AS:11431281103554209@1669725717272/Live-view-of-a-Tesla-self-driving-car-The-webpage-referenced-in-this-figure-is-50.png)
+
+*Tesla arabaların kamera verilerini kullanarak ortamı simüle etme örneği*
+
+Biz ise odometriyi, haritalandırmyı bitirdikten sonra robotumuzun konumunu algılamak için kullanacağız. Odometri için Lidar sensörünü kullanabiliriz, ancak kullandığımız Hector SLAM uygulamasının uygulamada haritayı kaydedip üzerinden konumlandırma yapma gibi bir imkanı olmadığından, tekerlek encoder verilerine bağlı olarak konumlandırma yapacağız
 Kaynaklar:
 
 [1] https://wiki.ros.org/noetic/Installation/Ubuntu

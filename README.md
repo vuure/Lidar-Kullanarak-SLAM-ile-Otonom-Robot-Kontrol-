@@ -158,7 +158,7 @@ Odometri, hayatımızın çeşitli alanlarında biz fark etmesek bile karşımı
 
 Bu kavram daha çok otonom veya robotik sistemlerde karşımıza çıkar. Örneğin Tesla, arabalarında hareketi ölçmek için odometriyi kullanır.
 
-![odometry](https://www.researchgate.net/publication/365825855/figure/fig4/AS:11431281103554209@1669725717272/Live-view-of-a-Tesla-self-driving-car-The-webpage-referenced-in-this-figure-is-50.png)
+![odometry]([https://www.researchgate.net/publication/365825855/figure/fig4/AS:11431281103554209@1669725717272/Live-view-of-a-Tesla-self-driving-car-The-webpage-referenced-in-this-figure-is-50.png](https://www.researchgate.net/profile/Mohamed-Lamine-Tazir/publication/339000487/figure/fig9/AS:854492593532929@1580738318856/Semi-autonomous-driving-system-on-the-Tesla-Model-S.ppm))
 
 *Tesla arabaların kamera verilerini kullanarak ortamı simüle etme örneği*
 
